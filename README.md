@@ -1,10 +1,24 @@
-# lookit-stimuli-template
+# Stimuli for Shengqi (Iris) Zhong's thesis
+
+This is a repository to store all of the stimuli used in my thesis experiment run on Lookit.
+
+This repository has the following folders:
+
+ - img: store all pictures
+ - mp3 and ogg: store all audio files
+ - mp4 and webcam: store all video files
+
+
+Instructions from the original template: 
+
+
+## lookit-stimuli-template
 
 A template repository for Lookit researchers who want to host their stimuli on GitHub.
 
 The instructions below are primarily intended for people with limited experience using GitHub or Git. If you are already comfortable using git via the command line or a desktop client and pushing your changes to GitHub, there is no need to use the GitHub web interface.
 
-## Getting started
+### Getting started
 
 1. Log in to GitHub, making an account if you don't already have one.
 
@@ -12,7 +26,7 @@ The instructions below are primarily intended for people with limited experience
 
 3. Edit the description (which will still be "A template repository for Lookit researchers who want to host their stimuli on GitHub") so it reflects the planned content of your repository.
 
-## Adding your stimuli
+### Adding your stimuli
 
 From your own fork, you can add stimuli right in GitHub like this:
 
@@ -24,15 +38,15 @@ From your own fork, you can add stimuli right in GitHub like this:
 
 By keeping the various file types in their own directories, and using the same filenames for equivalent files (like an mp4 and webm version of the same video), you will be ready to make use 
 
-### What if I want more directories, or sub-directories within these?
+#### What if I want more directories, or sub-directories within these?
 
 That's most straightforward to do using the command line or a desktop client for GitHub, like [GitHub Desktop](https://desktop.github.com/) or [Sourcetree](https://www.sourcetreeapp.com/). However, you can also do it right in Github by clicking 'Create new file' instead of 'Upload files' from the place where you want to add a new directory. Then, in the box to type the file name, type `NewDirectoryName/README.md`, replacing NewDirectoryName with your desired directory name.  This will create the new directory and a README.md file inside it. Then you can add other files too.
 
-## Accessing your stimuli and telling Lookit where to find them
+### Accessing your stimuli and telling Lookit where to find them
 
 You have two options:
 
-### 1. Use the latest version
+#### 1. Use the latest version
 
 If you always want to point to the latest version of your stimuli, you can access those at 
  
@@ -48,7 +62,7 @@ If you always want to point to the latest version of your stimuli, you can acces
  
  This option has the advantage that if you make slight adjustments to your stimuli, you don't also have to update your study to use the new versions. However, if you delete any files or make other unexpected changes, it may break something in your study.
 
-### 2. Use a specific version
+#### 2. Use a specific version
 
 If you want to point to a specific, fixed version of your stimuli - a 'snapshot in time' - you can select a particular "commit" to point to. From your fork of this repository, click the "N commits" at the top to view a list of commits. Click the "clipboard" icon next to the commit you want to use. This copies the COMMIT_ID. 
 
@@ -60,7 +74,7 @@ And the `baseDir` to use is:
 
 `https://raw.githubusercontent.com/YOUR_USERNAME/lookit-stimuli-template/COMMIT_ID/`
 
-## Making changes to your stimuli 
+### Making changes to your stimuli 
 
 **Deleting files**: You can delete individual files by navigating to them in GitHub and then clicking the "trash" icon. You'll be prompted to commit this change. 
 
